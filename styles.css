@@ -1,0 +1,140 @@
+
+/* ID Selector */
+#title {
+    color: blue;
+    font-size: 28px;
+}
+
+/* Class Selector */
+.card {
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+}
+
+/* Task 3: Hero Banner */
+.hero {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Task 3: Round Profile Picture */
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Task 3: Paragraph Font */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Task 4: Main Box */
+.box {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #333;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+}
+
+/* NEW Badge */
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Optional: Flexbox */
+.flex-container {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.flex-box {
+    flex: 1;
+    padding: 25px 10px;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+/* Optional: CSS Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.grid-box {
+    padding: 25px 10px;
+    background-color: lightgreen;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+/* Small-screen layout */
+@media (max-width: 500px) {
+    .flex-container {
+        flex-wrap: wrap;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Registration Form Styling */
+
+form {
+    background-color: white;
+    border: 2px solid navy;
+    padding: 20px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+a {
+    color: blue;
+}
